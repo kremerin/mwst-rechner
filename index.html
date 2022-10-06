@@ -15,18 +15,18 @@
             <div class="art">
                 <input type="radio" id="nettoBrutto" name="nettoBrutto">
                 <label for="nettoBrutto">Mehrwertsteuer aufschlagen (Netto zu Brutto)</label><br>
-                <input type="radio" id="bruttoNetto" name="bruttoNetto">
+                <input type="radio" id="bruttoNetto" name="nettoBrutto">
                 <label for="bruttoNetto">Mehrwertsteuer abziehen (Brutto zu Netto)</label>
             </div>
             <div class="satz">
                 <p>Mehrwertsteuersatz</p>
-                <input type="radio" id="19" name="19">
+                <input type="radio" id="19" name="prozent">
                 <label for="19">19%</label>
-                <input type="radio" id="7" name="7">
+                <input type="radio" id="7" name="prozent">
                 <label for="7">7%</label>
             </div>
             <div class="eingabe">
-                <p>Nettobertag (Preis ohne Mehrwertsteuer in Euro)</p>
+                <p>Bertag</p>
                 <input type="number" id="eingabe" name="eingabe">
             </div>
             <button type="submit" value="submit" onclick="rechner()">BERECHNEN</button>
